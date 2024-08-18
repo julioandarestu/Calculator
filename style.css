@@ -1,0 +1,236 @@
+/* All contaienr */
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding-top: 20px;
+  background-color: #e7ccc9;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.omu {
+  display: flex;
+  align-items: center;
+}
+
+.omu h5 {
+  font-size: 50px;
+  color: #8b0037;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  width: auto;
+  height: 590px;
+  background-color: #e7ccc9;
+}
+.calc-container {
+  margin-top: 40px;
+  padding-top: 70px;
+  width: 400px;
+  height: 560px;
+  background-color: #f7bab5;
+  border-radius: 40px;
+  box-shadow: 3px 8px 3px rgba(182, 179, 179, 0.4),
+    -4px -3px 3px rgba(182, 179, 179, 0.4);
+}
+
+.tittle {
+  background-color: aqua;
+}
+
+/* All container */
+
+/* Caclulator Image */
+
+.result {
+  display: flex;
+}
+
+.cacl-img {
+  position: fixed;
+}
+.calc-img img {
+  padding-left: 15px;
+  width: 200px;
+}
+
+.calc-img p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Caclulator Image */
+
+/* Hasil Pengoperasian */
+
+.calc-result {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 190px;
+  margin-top: 40px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+#dot {
+  font-size: 15px;
+}
+
+#history {
+  padding-right: 5px;
+  padding-top: 20px;
+  background-color: #f7bab5;
+  border: 0;
+  text-align: right;
+}
+
+#hasil {
+  font-size: 50px;
+  background-color: #f7bab5;
+  border: 0;
+  text-align: right;
+}
+
+/* Hasil Pengoperasian */
+
+.addition {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  width: 360px;
+  display: flex;
+  margin-right: 60px;
+  justify-content: space-between;
+}
+
+.add-button {
+  display: flex;
+  gap: 19px;
+}
+
+.minus-op {
+  padding-bottom: 5px;
+}
+
+#minus {
+  border-radius: 15px;
+  width: 80px;
+  height: 50px;
+  background-color: #eececb;
+}
+
+.left {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.addition input {
+  border-radius: 15px;
+  width: 75px;
+  height: 50px;
+  background-color: #f1aaa4;
+  border: black solid 2px;
+}
+
+.operan {
+  display: flex;
+}
+
+.number input {
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  width: 75px;
+  height: 50px;
+}
+
+.operator {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.operator input {
+  border-radius: 15px;
+  width: 80px;
+  height: 50px;
+  background-color: #eececb;
+}
+
+.comma {
+  padding-top: 5px;
+  display: flex;
+}
+
+.comma input {
+  border-radius: 10px;
+  width: 75px;
+  height: 50px;
+}
+
+.koma {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.is {
+  width: 120px;
+}
+
+#is {
+  background-color: #eececb;
+  border: black solid 2px;
+  border-radius: 15px;
+  width: 170px;
+}
+/* Bagian Bawah */
+
+.proses {
+  box-shadow: 0px -2px 2px rgba(84, 81, 81, 0.3);
+  width: 400px;
+  height: 361px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+/* Bagian Bawah */
+
+/* Footer */
+
+footer {
+  background-color: #e7ccc9;
+
+  display: flex;
+  padding-right: 40px;
+  padding-left: 40px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.footer p {
+  padding-top: 8px;
+  height: 47px;
+  font-size: 18px;
+  color: #8b0037;
+}
+
+/* Footer */

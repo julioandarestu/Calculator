@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Omu Calculator</title>
+  </head>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <div class="logo">
+        <img src="img/logo-02.png" alt="logo" />
+      </div>
+      <div class="omu">
+        <h5>Omu Calculator</h5>
+      </div>
+    </div>
+  </nav>
+
+  <body>
+    <div class="container">
+      <div class="calc-container">
+        <!-- Bagian Atas -->
+        <div class="result">
+          <div class="calc-img">
+            <img id="image" src="img/omu.png" alt="maskot" />
+          </div>
+
+          <div class="calc-result">
+            <input type="text" id="history" value="0" />
+            <input type="text" id="hasil" value="0" />
+          </div>
+        </div>
+        <!-- Bagian Atas -->
+        <!-- Bagian Bawah -->
+        <div class="proses">
+          <div class="left">
+            <div class="addition">
+              <div class="add-button">
+                <input type="button" id="reset" value="C" onclick="reset()" />
+                <input type="button" id="dot" value="." onclick="dot('.')" />
+                <input type="button" id="delete" value="Del" onclick="del()" />
+              </div>
+              <div class="minus-op">
+                <input
+                  type="button"
+                  id="minus"
+                  value="-"
+                  onclick="addOperator('-')"
+                />
+              </div>
+            </div>
+            <div class="operan">
+              <div class="number">
+                <input
+                  type="button"
+                  id="number7"
+                  onclick="addNumber(7)"
+                  value="7"
+                />
+                <input
+                  type="button"
+                  id="number8"
+                  value="8"
+                  onclick="addNumber(8)"
+                />
+                <input
+                  type="button"
+                  id="number9"
+                  value="9"
+                  onclick="addNumber(9)"
+                />
+                <input
+                  type="button"
+                  id="number4"
+                  value="4"
+                  onclick="addNumber(4)"
+                />
+                <input
+                  type="button"
+                  id="number5"
+                  value="5"
+                  onclick="addNumber(5)"
+                />
+                <input
+                  type="button"
+                  id="number6"
+                  value="6"
+                  onclick="addNumber(6)"
+                />
+                <input
+                  type="button"
+                  id="number1"
+                  value="1"
+                  onclick="addNumber(1)"
+                />
+                <input
+                  type="button"
+                  id="number2"
+                  value="2"
+                  onclick="addNumber(2)"
+                />
+                <input
+                  type="button"
+                  id="number3"
+                  value="3"
+                  onclick="addNumber(3)"
+                />
+              </div>
+
+              <div class="operator">
+                <input
+                  type="button"
+                  id="plus"
+                  value="+"
+                  onclick="addOperator('+')"
+                />
+                <input
+                  type="button"
+                  id="divide"
+                  value="/"
+                  onclick="addOperator('/')"
+                />
+                <input
+                  type="button"
+                  id="times"
+                  value="x"
+                  onclick="addOperator('*')"
+                />
+              </div>
+            </div>
+            <div class="comma">
+              <div class="koma">
+                <input
+                  type="button"
+                  id="number0"
+                  value="0"
+                  onclick="addNumber(0)"
+                />
+                <input
+                  type="button"
+                  id="triple0"
+                  value="000"
+                  onclick="tripleZero(000)"
+                />
+              </div>
+              <div class="is">
+                <input type="button" id="is" value="=" onclick="equal()" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Bagian Bawah -->
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <p>Copyrighy ©2024 Julio Andarestu. All Rights Reserved.</p>
+    </div>
+
+    <div class="footer">
+      <p>Terms Of Use & Privacy Policy</p>
+    </div>
+  </footer>
+  <!-- Footer -->
+</html>
