@@ -26,6 +26,10 @@
         <div class="result">
           <div class="calc-img">
             <img id="image" src="img/omu.png" alt="maskot" />
+            <img id="imagePlus" src="img/operatorPlus.png" alt="maskot" />
+            <img id="imageDivide" src="img/operatorDivide.png" alt="maskot" />
+            <img id="imageMinus" src="img/operatorMinus.png" alt="maskot" />
+            <img id="imageTimes" src="img/operatorTimes.png" alt="maskot" />
           </div>
 
           <div class="calc-result">
@@ -48,7 +52,7 @@
                   type="button"
                   id="minus"
                   value="-"
-                  onclick="addOperator('-')"
+                  onclick="operatorMinus('-')"
                 />
               </div>
             </div>
@@ -115,19 +119,19 @@
                   type="button"
                   id="plus"
                   value="+"
-                  onclick="addOperator('+')"
+                  onclick="operatorPlus('+')"
                 />
                 <input
                   type="button"
                   id="divide"
                   value="/"
-                  onclick="addOperator('/')"
+                  onclick="operatorDivide('/')"
                 />
                 <input
                   type="button"
                   id="times"
                   value="x"
-                  onclick="addOperator('*')"
+                  onclick="operatorTimes('*')"
                 />
               </div>
             </div>
